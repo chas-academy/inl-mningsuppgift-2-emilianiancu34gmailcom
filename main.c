@@ -7,6 +7,12 @@ float fahrenheit_to_celsius (float f)
     c=((f-32)*5)/9.0;
     return c;
 }
+float celsius_to_fahrenheit (float c)
+{
+    float f=0;
+    f=((c*9)/5.0)+32;
+    return f;
+}
 
 int main() {
     float temp_f = 100.0;
